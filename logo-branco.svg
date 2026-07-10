@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <style>
+      .medix { font-family: 'Roboto', 'Arial Black', sans-serif; font-weight: 900; font-size: 64px; fill: #FFFFFF; }
+      .hub { font-family: 'Roboto', 'Arial', sans-serif; font-weight: 300; font-size: 64px; fill: #FFFFFF; letter-spacing: 0.08em; }
+      .sistemas { font-family: 'Roboto', 'Arial', sans-serif; font-weight: 500; font-size: 18px; fill: #FFFFFF; letter-spacing: 0.52em; }
+    </style>
+  </defs>
+  <!-- Fundo transparente (sem retângulo) -->
+  <text x="0" y="70" class="medix">Medix</text>
+  <text x="128" y="70" class="hub">Hub</text>
+  <text x="202" y="72" class="sistemas">SISTEMAS</text>
+</svg>

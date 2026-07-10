@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <defs>
+    <!-- Gradientes -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0C1E49" />
+      <stop offset="50%" stop-color="#1a2f5a" />
+      <stop offset="100%" stop-color="#2a1a4a" />
+    </linearGradient>
+    
+    <linearGradient id="roxoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8F2AC6" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#b56ad9" stop-opacity="0.3" />
+    </linearGradient>
+    
+    <radialGradient id="glow1" cx="20%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#8F2AC6" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#0C1E49" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="glow2" cx="80%" cy="20%" r="40%">
+      <stop offset="0%" stop-color="#b56ad9" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#0C1E49" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="glow3" cx="50%" cy="50%" r="30%">
+      <stop offset="0%" stop-color="#8F2AC6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#0C1E49" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Filtro para brilho -->
+    <filter id="blurGlow">
+      <feGaussianBlur stdDeviation="8" />
+    </filter>
+    <filter id="blurSoft">
+      <feGaussianBlur stdDeviation="4" />
+    </filter>
+  </defs>
+
+  <!-- Fundo base -->
+  <rect width="1200" height="600" fill="url(#bgGrad)" />
+
+  <!-- Glows de fundo -->
+  <circle cx="200" cy="500" r="300" fill="url(#glow1)" filter="url(#blurGlow)" />
+  <circle cx="1000" cy="100" r="250" fill="url(#glow2)" filter="url(#blurGlow)" />
+  <circle cx="600" cy="300" r="200" fill="url(#glow3)" filter="url(#blurGlow)" />
+
+  <!-- Formas abstratas - ondas/linhas de conexão -->
+  <g opacity="0.15" stroke="#FFFFFF" stroke-width="1.5" fill="none">
+    <!-- Linhas curvas -->
+    <path d="M-50,150 C200,80 400,200 600,120 C800,40 1000,160 1250,100" />
+    <path d="M-50,250 C200,180 400,300 600,220 C800,140 1000,260 1250,200" />
+    <path d="M-50,350 C200,280 400,400 600,320 C800,240 1000,360 1250,300" />
+    <path d="M-50,450 C200,380 400,500 600,420 C800,340 1000,460 1250,400" />
+    <path d="M-50,550 C200,480 400,600 600,520 C800,440 1000,560 1250,500" />
+    
+    <!-- Ondas mais finas -->
+    <path d="M-50,200 C200,130 400,250 600,170 C800,90 1000,210 1250,150" stroke-width="0.8" />
+    <path d="M-50,300 C200,230 400,350 600,270 C800,190 1000,310 1250,250" stroke-width="0.8" />
+    <path d="M-50,400 C200,330 400,450 600,370 C800,290 1000,410 1250,350" stroke-width="0.8" />
+    <path d="M-50,500 C200,430 400,550 600,470 C800,390 1000,510 1250,450" stroke-width="0.8" />
+  </g>
+
+  <!-- Círculos / partículas -->
+  <g opacity="0.25">
+    <circle cx="150" cy="120" r="4" fill="#b56ad9" />
+    <circle cx="300" cy="80" r="3" fill="#FFFFFF" />
+    <circle cx="500" cy="160" r="5" fill="#8F2AC6" />
+    <circle cx="700" cy="100" r="3" fill="#b56ad9" />
+    <circle cx="900" cy="140" r="4" fill="#FFFFFF" />
+    <circle cx="1100" cy="90" r="3" fill="#8F2AC6" />
+    
+    <circle cx="100" cy="300" r="3" fill="#FFFFFF" />
+    <circle cx="350" cy="380" r="4" fill="#b56ad9" />
+    <circle cx="650" cy="280" r="3" fill="#8F2AC6" />
+    <circle cx="850" cy="350" r="4" fill="#FFFFFF" />
+    <circle cx="1050" cy="310" r="3" fill="#b56ad9" />
+    
+    <circle cx="200" cy="520" r="4" fill="#8F2AC6" />
+    <circle cx="450" cy="480" r="3" fill="#FFFFFF" />
+    <circle cx="750" cy="550" r="4" fill="#b56ad9" />
+    <circle cx="950" cy="490" r="3" fill="#8F2AC6" />
+    <circle cx="1150" cy="530" r="4" fill="#FFFFFF" />
+  </g>
+
+  <!-- Ícone de coração / saúde estilizado -->
+  <g transform="translate(950, 420)" opacity="0.12">
+    <path d="M0,15 C0,15 -20,-5 -20,-20 C-20,-35 -5,-40 0,-30 C5,-40 20,-35 20,-20 C20,-5 0,15 0,15 Z" fill="#FFFFFF" />
+  </g>
+
+  <!-- Formas geométricas modernas -->
+  <g opacity="0.08" stroke="#FFFFFF" stroke-width="1">
+    <rect x="80" y="450" width="60" height="60" rx="8" />
+    <rect x="1000" y="80" width="40" height="40" rx="6" />
+    <rect x="250" y="150" width="30" height="30" rx="4" />
+    <rect x="800" y="480" width="50" height="50" rx="8" />
+  </g>
+
+  <!-- Linhas de grade / conectividade -->
+  <g opacity="0.05" stroke="#FFFFFF" stroke-width="0.5">
+    <line x1="0" y1="100" x2="1200" y2="100" />
+    <line x1="0" y1="200" x2="1200" y2="200" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="0" y1="400" x2="1200" y2="400" />
+    <line x1="0" y1="500" x2="1200" y2="500" />
+    
+    <line x1="200" y1="0" x2="200" y2="600" />
+    <line x1="400" y1="0" x2="400" y2="600" />
+    <line x1="600" y1="0" x2="600" y2="600" />
+    <line x1="800" y1="0" x2="800" y2="600" />
+    <line x1="1000" y1="0" x2="1000" y2="600" />
+  </g>
+
+  <!-- Destaque com gradiente roxo -->
+  <ellipse cx="300" cy="180" rx="180" ry="100" fill="url(#roxoGrad)" opacity="0.15" filter="url(#blurSoft)" />
+  <ellipse cx="900" cy="420" rx="200" ry="120" fill="url(#roxoGrad)" opacity="0.12" filter="url(#blurSoft)" />
+</svg>
